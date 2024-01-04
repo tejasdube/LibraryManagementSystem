@@ -49,5 +49,10 @@ public class BookController {
     	rv.setUrl(urlString);
 		return rv;
     }
+    
+    @RequestMapping("/successBook")
+    public String successAdd() {
+    	return "successBook";
+    }
 	
 }
